@@ -1,0 +1,6 @@
+{
+  "name": "Shanti Medical Hall",
+  "description": "Your Trusted Medical Store in Tekari, Gaya, Bihar for Genuine Medicines, Healthcare, and Surgical Supplies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
