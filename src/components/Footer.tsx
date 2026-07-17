@@ -139,7 +139,17 @@ export default function Footer({ onTabChange, onOpenWhatsAppModal, onOpenPrivacy
       {/* Map and bottom legal */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex flex-col sm:flex-row items-center gap-4 text-xs text-slate-400">
-          <span>&copy; {new Date().getFullYear()} {BUSINESS_INFO.name}. All rights reserved.</span>
+          <span>
+            &copy; {new Date().getFullYear()} {BUSINESS_INFO.name}. All rights reserved. Developed by{" "}
+            <a
+              href="https://main.webmakerit.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent-teal hover:underline font-semibold"
+            >
+              WMIT
+            </a>.
+          </span>
           <div className="flex items-center gap-3">
             <span className="hidden sm:inline text-slate-700">|</span>
             <button id="privacy-policy-btn" onClick={() => onOpenPrivacyModal("privacy")} className="hover:text-white transition-colors">Privacy Policy</button>
