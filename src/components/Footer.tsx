@@ -141,14 +141,7 @@ export default function Footer({ onTabChange, onOpenWhatsAppModal, onOpenPrivacy
         <div className="flex flex-col sm:flex-row items-center gap-4 text-xs text-slate-400">
           <span>
             &copy; {new Date().getFullYear()} {BUSINESS_INFO.name}. All rights reserved. Developed by{" "}
-            <a
-              href="https://main.webmakerit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent-teal hover:underline font-semibold"
-            >
-              WMIT
-            </a>.
+            <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
           </span>
           <div className="flex items-center gap-3">
             <span className="hidden sm:inline text-slate-700">|</span>
